@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+import '@/styles/stepper.css'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
