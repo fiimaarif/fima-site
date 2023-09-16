@@ -16,7 +16,7 @@ export function Stepper() {
               API to ensure smooth data flow and functionality.
             </p>
           </div>
-          <time className="font-rubik">Dec 2022 - Present</time>
+          <time className="font-rubik">Dec 22 - Present</time>
         </li>
         <li className="c-timeline__item">
           <div className="c-timeline__content">
@@ -30,7 +30,7 @@ export function Stepper() {
               resolved discrepancies and anomalies.
             </p>
           </div>
-          <time className="font-rubik">Oct 2022 - Nov 2022</time>
+          <time className="font-rubik">Oct 22 - Nov 22</time>
         </li>
         <li className="c-timeline__item">
           <div className="c-timeline__content">
@@ -42,7 +42,7 @@ export function Stepper() {
               applications and applied this knowledge through hands-on projects.
             </p>
           </div>
-          <time className="font-rubik">Jul 2022 - Oct 2022</time>
+          <time className="font-rubik">Jul 22 - Oct 22</time>
         </li>
       </ol>
     </div>

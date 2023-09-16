@@ -49,23 +49,9 @@
   }
   
   time {
-    flex: 0 0 155px;
+    flex: 0 0 126px;
     min-width: 0;
     overflow-wrap: break-word;
     padding-bottom: 1rem;
-    /* text-align: right; */
   }
-  
-  /* Non-demo CSS */
-  
-  /* .wrapper {
-    max-width: 1000px;
-    margin: 2rem auto 0;
-  } */
-  
-  /* *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  } */
   
