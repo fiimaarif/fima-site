@@ -2,7 +2,7 @@ export function Hero() {
     return (
       <div className="min-h-screen py-10 bg-base-200 flex items-center" id="hero">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center justify-between lg:flex-row-reverse">
+          <div data-aos="fade-left" className="flex flex-col items-center justify-between lg:flex-row-reverse">
             <div className="lg:w-1/2 w-full">
               <img className="mx-auto lg:mx-0 lg:ml-auto" src="./assets/images/hero-image.png"/>
             </div>

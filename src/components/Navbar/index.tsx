@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Navbar() {
   return (
     <div className="navbar bg-base-200">
@@ -25,26 +27,26 @@ export function Navbar() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="#hero" className="text-xl font-rubik">
+                <Link href={'/about'} className="text-xl font-rubik">
                   about
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="text-xl font-rubik">portfolio</a>
+                <Link href={'/portfolio'} className="text-xl font-rubik">portfolio</Link>
               </li>
             </ul>
           </div>
-          <a className="normal-case text-2xl font-medium tracking-wider font-rubik">
+          <Link href={'/'} className="normal-case text-2xl font-medium tracking-wider font-rubik">
             fima
-          </a>
+          </Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-xl font-medium font-rubik">about</a>
+              <Link href={'/about'} className="text-xl font-medium font-rubik">about</Link>
             </li>
             <li>
-              <a className="text-xl font-medium font-rubik">portfolio</a>
+              <Link href={'/portfolio'} className="text-xl font-medium font-rubik">portfolio</Link>
             </li>
           </ul>
         </div>
