@@ -34,6 +34,9 @@ export function Navbar() {
               <li>
                 <Link href={'/portfolio'} className="text-xl font-rubik">portfolio</Link>
               </li>
+              <li>
+                <Link href={'/contact'} className="text-xl font-rubik">contact</Link>
+              </li>
             </ul>
           </div>
           <Link href={'/'} className="normal-case text-2xl font-medium tracking-wider font-rubik">
@@ -47,6 +50,9 @@ export function Navbar() {
             </li>
             <li>
               <Link href={'/portfolio'} className="text-xl font-medium font-rubik">portfolio</Link>
+            </li>
+            <li>
+              <Link href={'/contact'} className="text-xl font-medium font-rubik">contact</Link>
             </li>
           </ul>
         </div>
