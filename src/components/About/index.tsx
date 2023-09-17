@@ -51,9 +51,11 @@ export function About() {
                 </button>
               )}
             </p>
-            <Link href={'/resume'} className="btn btn-warning font-bold rounded-full font-rubik">
-              show more about me
-            </Link>
+            <div className="tooltip tooltip-accent tooltip-bottom font-rubik" data-tip="See my work experience">
+              <Link href={"/resume"} className="btn btn-warning font-bold rounded-full font-rubik">
+                show more about me
+              </Link>
+            </div>
           </div>
         </div>
       </div>

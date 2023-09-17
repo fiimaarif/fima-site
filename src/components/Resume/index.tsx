@@ -10,7 +10,7 @@ export function Resume() {
             </div>
             <div className="lg:w-8/12 w-full text-center lg:text-left">
               <h2 className="text-xl font-semibold text-cyan-900 font-rubik mb-5">
-                Resume
+                Work Experience
               </h2>
               <Stepper/>
             </div>
