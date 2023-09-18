@@ -9,7 +9,7 @@ export function Portfolio() {
           <div className="lg:w-1/2 w-full">
             <img
               className="mx-auto lg:mx-0 lg:ml-auto"
-              src="./assets/images/portfolio-image.png"
+              src="./assets/images/illustrations/portfolio-image.webP"
             />
           </div>
           <div className="lg:w-1/2 w-full text-center lg:text-left">

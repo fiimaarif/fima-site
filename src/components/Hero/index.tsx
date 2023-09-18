@@ -4,7 +4,7 @@ export function Hero() {
       <div className="container mx-auto px-4">
         <div data-aos="fade-left" className="flex flex-col items-center justify-between lg:flex-row-reverse">
           <div className="lg:w-1/2 w-full">
-            <img className="mx-auto lg:mx-0 lg:ml-auto" src="./assets/images/hero-image.png"/>
+            <img className="mx-auto lg:mx-0 lg:ml-auto" src="./assets/images/illustrations/hero-image.webP"/>
           </div>
           <div className="lg:w-1/2 w-full text-center lg:text-left">
             <div className="tooltip tooltip-accent tooltip-top font-rubik" data-tip="you can call me fii">
