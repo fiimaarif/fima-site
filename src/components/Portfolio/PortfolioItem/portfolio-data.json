@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "./assets/images/portfolio/portfolio-baf-web.webP",
+      "title": "Baf Website",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "Next.js", "className": "badge-neutral" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/portfolio/portfolio-baf-portal.webP",
+      "title": "Baf Portal",
+      "description": "Website portal for BAF employees.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "TypeScript", "className": "badge-primary" },
+        { "text": "Tailwind", "className": "badge-secondary" }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/portfolio/portfolio-cms-baf-web.webP",
+      "title": "CMS Baf Website",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/portfolio/portfolio-cms-baf-portal.webP",
+      "title": "CMS Baf Portal",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/portfolio/portfolio-topup-game.webP",
+      "title": "Top Up Game",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "./assets/images/portfolio/portfolio-pascal-room.webP",
+      "title": "Pascal Room",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "./assets/images/portfolio/portfolio-investasi-web.webP",
+      "title": "Investasi Web",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "./assets/images/portfolio/portfolio-notes-app.webP",
+      "title": "Notes App",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "./assets/images/portfolio/portfolio-bookshelf-app.webP",
+      "title": "Bookshelf App",
+      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "badges": [
+        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    }
+  ]
+}
