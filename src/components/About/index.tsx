@@ -40,7 +40,7 @@ export function About() {
             <h2 className="text-xl font-semibold text-cyan-900 font-rubik pt-5 lg:pt-0">
               About me
             </h2>
-            <p className="py-6 font-medium text-justify lg:text-left font-rubik">
+            <p className="pt-2 pb-6 lg:py-6 font-medium text-justify lg:text-left font-rubik text-gray-800">
               {displayText}
               {!showFullText && initialText.length > maxLength && (
                 <button

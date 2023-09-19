@@ -1,0 +1,32 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "icon": "./assets/icons/icons8-phone.png",
+            "title": "Call me",
+            "desc": "+62 812 1435 7617",
+            "link": "https://wa.me/6281214357617"
+        },
+        {
+            "id": 2,
+            "icon": "./assets/icons/icons8-instagram.png",
+            "title": "Follow me",
+            "desc": "fimaarif",
+            "link": "https://www.instagram.com/fimaarif/"
+        },
+        {
+            "id": 3,
+            "icon": "./assets/icons/icons8-linkedin.png",
+            "title": "Let's connect",
+            "desc": "fii maarif",
+            "link": "https://www.linkedin.com/in/fiimaarif"
+        },
+        {
+            "id": 4,
+            "icon": "./assets/icons/icons8-mail.png",
+            "title": "Email me",
+            "desc": "fiimaarif44@gmail.com",
+            "link": "mailto:fiimaarif44@gmail.com"
+        }
+    ]
+}

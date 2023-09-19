@@ -11,15 +11,15 @@ export function Hero() {
           </div>
           <div className="lg:w-1/2 w-full text-center lg:text-left">
             <div className="tooltip tooltip-accent tooltip-top font-rubik" data-tip="you can call me fii">
-              <h2 className="text-xl font-semibold text-cyan-900 font-rubik">
+              <h2 className="text-xl font-semibold text-gray-900 font-rubik">
                 Hi there 👋 I am
               </h2>
             </div>
-            <h1 className="text-5xl font-bold tracking-wider font-rubik">
+            <h1 className="text-5xl font-bold tracking-wider font-rubik text-cyan-900">
               fii maarif
             </h1>
             <h2 className="text-2xl font-rubik">Frontend Developer</h2>
-            <p className="py-6 font-medium text-justify lg:text-left font-rubik">
+            <p className="py-6 font-medium text-justify lg:text-left font-rubik text-gray-900">
               As a Frontend Developer, I have experience in creating and
               developing responsive and intuitive UI. I have experience with
               popular frameworks such as React and Angular. I am also able to

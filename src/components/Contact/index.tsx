@@ -1,3 +1,5 @@
+import { ContactCard } from "..";
+
 export function Contact() {
     return (
       <div
@@ -5,6 +7,17 @@ export function Contact() {
         id="hero"
       >
         <div className="container mx-auto px-4">
+          <div className="lg:w-6/12 w-full text-center lg:text-left">
+            <h2 className="text-xl font-semibold text-cyan-900 font-rubik">
+              Contact me
+            </h2>
+            <p className="lg:py-6 pt-2 font-medium text-justify lg:text-left font-rubik text-gray-700">
+              I appreciate your interest in reaching out to me. If you'd like to
+              get in touch or have any questions, please feel free to send me a
+              message through the contact form below. I'll do my best to respond
+              promptly. Thank you for your attention.
+            </p>
+          </div>
           <div
             data-aos="fade-left"
             className="flex flex-col items-center justify-between lg:flex-row-reverse"
@@ -15,20 +28,7 @@ export function Contact() {
                 src="./assets/images/illustrations/contact-image.webP"
               />
             </div>
-            <div className="lg:w-1/2 w-full text-center lg:text-left">
-              <h2 className="text-xl font-semibold text-cyan-900 font-rubik">
-                Contact me
-              </h2>
-              <p className="py-6 font-medium text-justify lg:text-left font-rubik">
-                I appreciate your interest in reaching out to me. If you'd like
-                to get in touch or have any questions, please feel free to send
-                me a message through the contact form below. I'll do my best to
-                respond promptly. Thank you for your attention.
-              </p>
-              <button className="btn btn-warning font-bold rounded-full font-rubik">
-                Download Resume
-              </button>
-            </div>
+            <ContactCard />
           </div>
         </div>
       </div>

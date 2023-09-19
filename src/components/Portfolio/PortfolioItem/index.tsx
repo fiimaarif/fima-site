@@ -38,7 +38,7 @@ export function PortflioItem() {
                 </figure>
                 <div className="card-body pb-3 px-5 pt-2">
                   <h2 className="card-title">{item.title}</h2>
-                  <p className="text-justify">{item.description}</p>
+                  <p className="text-justify text-gray-800">{item.description}</p>
                   <div className="card-actions justify-start pt-2">
                     {item.badges.map((badge, index) => (
                       <div key={index} className={`badge badge-outline ${badge.className}`}>
