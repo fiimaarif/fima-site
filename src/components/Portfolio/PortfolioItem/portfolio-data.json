@@ -4,7 +4,7 @@
       "id": 1,
       "image": "./assets/images/portfolio/portfolio-baf-web.webP",
       "title": "Baf Website",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "Whether you're looking to finance a Yamaha motorcycle, explore personal loans, or support your business growth, we're here to assist you every step of the way.",
       "badges": [
         { "text": "Next.js", "className": "badge-neutral" },
         { "text": "Bootstrap", "className": "badge-accent" }
@@ -14,7 +14,7 @@
       "id": 2,
       "image": "./assets/images/portfolio/portfolio-baf-portal.webP",
       "title": "Baf Portal",
-      "description": "Website portal for BAF employees.",
+      "description": "Your gateway to essential resources and tools exclusively for BAF employees. Access and manage your work-related information with ease.",
       "badges": [
         { "text": "React.js", "className": "badge-primary" },
         { "text": "TypeScript", "className": "badge-primary" },
@@ -25,7 +25,7 @@
       "id": 3,
       "image": "./assets/images/portfolio/portfolio-cms-baf-web.webP",
       "title": "CMS Baf Website",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "CMS engine behind BAF Web and BAF mobile, allowing us to efficiently manage and update website content. Explore and experience seamless content control.",
       "badges": [
         { "text": "React.js", "className": "badge-primary" },
         { "text": "Bootstrap", "className": "badge-accent" }
@@ -35,7 +35,7 @@
       "id": 4,
       "image": "./assets/images/portfolio/portfolio-cms-baf-portal.webP",
       "title": "CMS Baf Portal",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "CMS engine behind BAF Portal, allowing us to efficiently manage and update website content. Explore and experience seamless content control.",
       "badges": [
         { "text": "React.js", "className": "badge-primary" },
         { "text": "Bootstrap", "className": "badge-accent" }
@@ -45,9 +45,9 @@
       "id": 5,
       "image": "./assets/images/portfolio/portfolio-topup-game.webP",
       "title": "Top Up Game",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "Explore my MERN Stack-powered website for hassle-free game voucher top-ups. Streamline your gaming experience with fast and secure transactions.",
       "badges": [
-        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Next.js", "className": "badge-neutral" },
         { "text": "Bootstrap", "className": "badge-accent" }
       ]
     },
@@ -55,9 +55,10 @@
       "id": 6,
       "image": "./assets/images/portfolio/portfolio-pascal-room.webP",
       "title": "Pascal Room",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "Discover 'Pascal Room,' your gateway to exquisite hotel accommodations. Explore our inviting rooms, plan your stay, and experience comfort like never before.",
       "badges": [
-        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Angular", "className": "badge-secondary" },
+        { "text": "TypeScript", "className": "badge-primary" },
         { "text": "Bootstrap", "className": "badge-accent" }
       ]
     },
@@ -65,9 +66,10 @@
       "id": 7,
       "image": "./assets/images/portfolio/portfolio-investasi-web.webP",
       "title": "Investasi Web",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "Unlock Financial Opportunities, explore our investment platform and embark on a journey to secure your financial future. Start investing wisely today.",
       "badges": [
-        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Angular", "className": "badge-secondary" },
+        { "text": "TypeScript", "className": "badge-primary" },
         { "text": "Bootstrap", "className": "badge-accent" }
       ]
     },
@@ -75,7 +77,7 @@
       "id": 8,
       "image": "./assets/images/portfolio/portfolio-notes-app.webP",
       "title": "Notes App",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "Seamlessly create, edit, and organize your notes for a more efficient and organized life. Take control of your ideas and tasks today.",
       "badges": [
         { "text": "React.js", "className": "badge-primary" },
         { "text": "Bootstrap", "className": "badge-accent" }
@@ -85,10 +87,21 @@
       "id": 9,
       "image": "./assets/images/portfolio/portfolio-bookshelf-app.webP",
       "title": "Bookshelf App",
-      "description": "PT Bussan Auto Finance is a new motorbike financing company specifically for the Yamaha brand.",
+      "description": "Effortlessly manage your book collection, add new titles, categorize them as 'Read' or 'Unread,' and declutter your library. Your literary journey, simplified.",
       "badges": [
-        { "text": "React.js", "className": "badge-primary" },
+        { "text": "Javascript", "className": "badge-secondary" },
         { "text": "Bootstrap", "className": "badge-accent" }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "./assets/images/portfolio/portfolio-fima-site.webP",
+      "title": "Personal Web",
+      "description": "Simple personal web, get to know me better through my portfolio and personal information. Explore my interests and achievements in one place.",
+      "badges": [
+        { "text": "Next.js", "className": "badge-neutral" },
+        { "text": "TypeScript", "className": "badge-primary" },
+        { "text": "Tailwind", "className": "badge-secondary" }
       ]
     }
   ]

@@ -23,7 +23,7 @@ export function PortflioItem() {
     }
   };
   return (
-    <div className="container mx-auto px-4 pb-5">
+    <div className="container mx-auto px-4 pb-5" id='portfolio'>
       <div data-aos="fade-up" className="mockup-window border bg-base-300">
         <div className="bg-base-200 p-3">
           <Carousel
@@ -33,7 +33,7 @@ export function PortflioItem() {
             infinite={true}
           >
             {dataItem.data.map((item) => (
-              <div className="h-96 card w-full md:w-80 mx-auto lg:w-80 lg:mx-auto lg:mt-6 bg-base-100 shadow-lg lg:shadow-xl font-rubik">
+              <div key={item.id} className="h-96 card w-full md:w-80 mx-auto lg:w-80 lg:mx-auto lg:mt-6 bg-base-100 shadow-lg lg:shadow-xl font-rubik">
                 <figure className="p-1">
                   <img className="w-full" src={item.image} alt="portfolio" />
                 </figure>
@@ -42,7 +42,7 @@ export function PortflioItem() {
                   <p className="text-justify">{item.description}</p>
                   <div className="card-actions justify-start pt-2">
                     {item.badges.map((badge, index) => (
-                      <div key={index} className={`badge ${badge.className}`}>
+                      <div key={index} className={`badge badge-outline ${badge.className}`}>
                         {badge.text}
                       </div>
                     ))}

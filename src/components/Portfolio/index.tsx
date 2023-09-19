@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Portfolio() {
   return (
     <div className="min-h-screen py-10 bg-base-200 flex items-center" id="hero">
@@ -21,9 +23,9 @@ export function Portfolio() {
               my work and projects. Feel free to explore and get in touch if you
               have any questions or collaboration ideas. Thanks for visiting!
             </p>
-            <button className="btn btn-warning font-bold rounded-full font-rubik">
-              Download Resume
-            </button>
+            <Link href={'#portfolio'} className="btn btn-warning font-bold rounded-full font-rubik">
+              see my portfolio
+            </Link>
           </div>
         </div>
       </div>
