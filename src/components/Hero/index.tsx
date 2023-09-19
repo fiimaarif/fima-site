@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 export function Hero() {
+  const linkResume = 'https://drive.google.com/file/d/1CMbOQsV5vsH4eLc-0z5cFPUADzHOUDwY/view?usp=sharing';
   return (
     <div className="min-h-screen py-10 bg-base-200 flex items-center" id="hero">
       <div className="container mx-auto px-4">
@@ -24,9 +27,9 @@ export function Hero() {
               between the user interface and systems.
             </p>
             <div className="tooltip tooltip-accent tooltip-bottom font-rubik" data-tip="Download PDF File">
-              <button className="btn btn-warning font-bold rounded-full font-rubik">
+              <Link href={linkResume} target="_blank" className="btn btn-warning font-bold rounded-full font-rubik">
                 Download Resume
-              </button>
+              </Link>
             </div>
           </div>
         </div>
