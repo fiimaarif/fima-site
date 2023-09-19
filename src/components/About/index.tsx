@@ -32,7 +32,7 @@ export function About() {
         >
           <div className="lg:w-1/2 w-full">
             <img
-              className="mx-auto lg:mx-0 lg:ml-auto"
+              className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto"
               src="./assets/images/illustrations/about-image.webP"
             />
           </div>
