@@ -9,7 +9,7 @@ export function Resume() {
             <div className="lg:w-1/3 w-full">
               <Image 
                 className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto" 
-                src="/assets/images/illustrations/resume-image.webP" 
+                src="/assets/images/illustrations/resume-image.png" 
                 alt="resume-image"
                 width={368}
                 height={436}

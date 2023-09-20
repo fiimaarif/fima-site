@@ -26,7 +26,7 @@ export function Contact() {
             <div className="lg:w-1/2 w-full">
               <Image
                 className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto"
-                src="/assets/images/illustrations/contact-image.webP"
+                src="/assets/images/illustrations/contact-image.png"
                 alt="contact-image"
                 width={368}
                 height={314}

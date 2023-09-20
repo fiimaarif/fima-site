@@ -20,7 +20,7 @@ export function Portfolio() {
             <Image
               data-aos="fade-left"
               className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto lg:flex hidden"
-              src="/assets/images/illustrations/portfolio-image.webP"
+              src="/assets/images/illustrations/portfolio-image.png"
               alt="portfolio-image"
               width={367}
               height={435}
