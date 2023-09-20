@@ -2,7 +2,7 @@
   "data": [
     {
       "id": 1,
-      "image": "/assets/images/portfolio/portfolio-baf-web.webP",
+      "image": "/assets/images/portfolio/portfolio-baf-web.png",
       "title": "Baf Website",
       "description": "Whether you're looking to finance a Yamaha motorcycle, explore personal loans, or support your business growth, we're here to assist you every step of the way.",
       "badges": [
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "image": "/assets/images/portfolio/portfolio-baf-portal.webP",
+      "image": "/assets/images/portfolio/portfolio-baf-portal.png",
       "title": "Baf Portal",
       "description": "Your gateway to essential resources and tools exclusively for BAF employees. Access and manage your work-related information with ease.",
       "badges": [
@@ -23,7 +23,7 @@
     },
     {
       "id": 3,
-      "image": "/assets/images/portfolio/portfolio-cms-baf-web.webP",
+      "image": "/assets/images/portfolio/portfolio-cms-baf-web.png",
       "title": "CMS Baf Website",
       "description": "CMS engine behind BAF Web and BAF mobile, allowing us to efficiently manage and update website content. Explore and experience seamless content control.",
       "badges": [
@@ -33,7 +33,7 @@
     },
     {
       "id": 4,
-      "image": "/assets/images/portfolio/portfolio-cms-baf-portal.webP",
+      "image": "/assets/images/portfolio/portfolio-cms-baf-portal.png",
       "title": "CMS Baf Portal",
       "description": "CMS engine behind BAF Portal, allowing us to efficiently manage and update website content. Explore and experience seamless content control.",
       "badges": [
@@ -43,7 +43,7 @@
     },
     {
       "id": 5,
-      "image": "/assets/images/portfolio/portfolio-topup-game.webP",
+      "image": "/assets/images/portfolio/portfolio-topup-game.png",
       "title": "Top Up Game",
       "description": "Explore my MERN Stack-powered website for hassle-free game voucher top-ups. Streamline your gaming experience with fast and secure transactions.",
       "badges": [
@@ -53,7 +53,7 @@
     },
     {
       "id": 6,
-      "image": "/assets/images/portfolio/portfolio-pascal-room.webP",
+      "image": "/assets/images/portfolio/portfolio-pascal-room.png",
       "title": "Pascal Room",
       "description": "Discover 'Pascal Room,' your gateway to exquisite hotel accommodations. Explore our inviting rooms, plan your stay, and experience comfort like never before.",
       "badges": [
@@ -64,7 +64,7 @@
     },
     {
       "id": 7,
-      "image": "/assets/images/portfolio/portfolio-investasi-web.webP",
+      "image": "/assets/images/portfolio/portfolio-investasi-web.png",
       "title": "Investasi Web",
       "description": "Unlock Financial Opportunities, explore our investment platform and embark on a journey to secure your financial future. Start investing wisely today.",
       "badges": [
@@ -75,7 +75,7 @@
     },
     {
       "id": 8,
-      "image": "/assets/images/portfolio/portfolio-notes-app.webP",
+      "image": "/assets/images/portfolio/portfolio-notes-app.png",
       "title": "Notes App",
       "description": "Seamlessly create, edit, and organize your notes for a more efficient and organized life. Take control of your ideas and tasks today.",
       "badges": [
@@ -85,7 +85,7 @@
     },
     {
       "id": 9,
-      "image": "/assets/images/portfolio/portfolio-bookshelf-app.webP",
+      "image": "/assets/images/portfolio/portfolio-bookshelf-app.png",
       "title": "Bookshelf App",
       "description": "Effortlessly manage your book collection, add new titles, categorize them as 'Read' or 'Unread,' and declutter your library. Your literary journey, simplified.",
       "badges": [
@@ -95,7 +95,7 @@
     },
     {
       "id": 10,
-      "image": "/assets/images/portfolio/portfolio-fima-site.webP",
+      "image": "/assets/images/portfolio/portfolio-fima-site.png",
       "title": "Personal Web",
       "description": "Simple personal web, get to know me better through my portfolio and personal information. Explore my interests and achievements in one place.",
       "badges": [
