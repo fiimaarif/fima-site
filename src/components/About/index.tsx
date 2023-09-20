@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import {useState} from 'react';
 
@@ -31,9 +32,12 @@ export function About() {
           className="flex flex-col items-center justify-between lg:flex-row-reverse"
         >
           <div className="lg:w-1/2 w-full">
-            <img
+            <Image
               className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto"
-              src="./assets/images/illustrations/about-image.webP"
+              src="/assets/images/illustrations/about-image.webP"
+              alt='about-image'
+              width={368}
+              height={418}
             />
           </div>
           <div className="lg:w-1/2 w-full text-center lg:text-left">

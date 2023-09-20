@@ -1,6 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import dataItem from './portfolio-data.json';
+import Image from 'next/image';
 
 export function PortflioItem() {
 
@@ -34,7 +35,13 @@ export function PortflioItem() {
             {dataItem.data.map((item) => (
               <div key={item.id} className="h-96 card w-full md:w-80 mx-auto lg:w-80 lg:mx-auto lg:mt-6 mb-3 lg:mb-5 bg-base-100 drop-shadow-lg lg:drop-shadow-xl font-rubik">
                 <figure className="p-1">
-                  <img className="w-full" src={item.image} alt="portfolio" />
+                  <Image 
+                    className="w-full" 
+                    src={item.image} 
+                    alt="portfolio-image"
+                    width={393}
+                    height={206}
+                    />
                 </figure>
                 <div className="card-body pb-3 px-5 pt-2">
                   <h2 className="card-title">{item.title}</h2>

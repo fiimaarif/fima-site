@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Stepper } from "..";
 
 export function Resume() {
@@ -6,7 +7,13 @@ export function Resume() {
         <div className="container mx-auto px-4">
           <div data-aos="fade-up" className="flex flex-col items-center justify-between lg:flex-row-reverse">
             <div className="lg:w-1/3 w-full">
-              <img className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto" src="./assets/images/illustrations/resume-image.webP"/>
+              <Image 
+                className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto" 
+                src="/assets/images/illustrations/resume-image.webP" 
+                alt="resume-image"
+                width={368}
+                height={436}
+              />
             </div>
             <div className="lg:w-8/12 w-full text-center lg:text-left">
               <h2 className="text-xl font-semibold text-cyan-900 font-rubik mb-5">

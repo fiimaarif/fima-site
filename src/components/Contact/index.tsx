@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ContactCard } from "..";
 
 export function Contact() {
@@ -12,9 +13,9 @@ export function Contact() {
               Contact me
             </h2>
             <p className="lg:py-6 pt-2 font-medium text-justify lg:text-left font-rubik text-gray-700">
-              I appreciate your interest in reaching out to me. If you'd like to
+              I appreciate your interest in reaching out to me. If you&#39;d like to
               get in touch or have any questions, please feel free to send me a
-              message through the contact form below. I'll do my best to respond
+              message through the contact form below. I&#39;ll do my best to respond
               promptly. Thank you for your attention.
             </p>
           </div>
@@ -23,9 +24,12 @@ export function Contact() {
             className="flex flex-col items-center justify-between lg:flex-row-reverse"
           >
             <div className="lg:w-1/2 w-full">
-              <img
+              <Image
                 className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto"
-                src="./assets/images/illustrations/contact-image.webP"
+                src="/assets/images/illustrations/contact-image.webP"
+                alt="contact-image"
+                width={368}
+                height={314}
               />
             </div>
             <ContactCard />
