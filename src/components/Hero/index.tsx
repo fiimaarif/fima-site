@@ -10,7 +10,7 @@ export function Hero() {
           <div className="lg:w-1/2 w-full">
             <Image 
               className="mx-auto lg:mx-0 lg:ml-auto w-52 lg:w-auto" 
-              src="/assets/images/illustrations/hero-image.webP"
+              src="/assets/images/illustrations/hero-image.png"
               alt="hero-image"
               width={368}
               height={436}
